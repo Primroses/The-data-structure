@@ -1,10 +1,3 @@
-# 栈
-> 栈是一种遵从先进先出(LILO)原则的有序集合。新添加的或等待删除的元素都保存在栈的末尾，称为栈顶，另一端叫做栈底，在栈里，新元素都靠近栈顶，旧元素都靠近栈底
-
-## 栈的声明
-**我们将创建一个类来表示栈**
-
-```
 // 从 零封装一个栈类
 function Stack(){
     // 初始化 一个数组来存放 栈中的数据 
@@ -24,13 +17,14 @@ function Stack(){
     }
     // 判断是否为空
     this.isEmpty = function(){
-        return stack.length==0?true:false;
+        // 返回类型是 boolean? 返回 是否等于 0
+        return stack.length==0;
     }
     // 返回 栈的长度
     this.size = function(){
         return stack.length;
     }
-    //  清空栈
+    //  清空数组
     this.clear = function(){
         stack = [ ];
     }
@@ -40,5 +34,6 @@ function Stack(){
     }
 }
 
-```
-
+var stack = new Stack();
+// 先判断一下 栈是否为空
+console.log(stack.isEmpty());
