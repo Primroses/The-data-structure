@@ -36,3 +36,4 @@ var pq = new PriorityQueue();
 pq.enqueue("John",2);
 pq.enqueue("Jack",1);
 pq.enqueue("Camila",1);
+// console.log(pq.toString());
