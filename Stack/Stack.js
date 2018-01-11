@@ -1,4 +1,5 @@
 // 从 零封装一个栈类
+
 function Stack(){
     // 初始化 一个数组来存放 栈中的数据 
     // 栈 是从下面开始往上数
@@ -13,7 +14,7 @@ function Stack(){
     }
     // 返回栈的第一个数据
     this.peek = function(){
-        return stack[length-1];
+        return stack[stack.length-1];
     }
     // 判断是否为空
     this.isEmpty = function(){
@@ -37,3 +38,14 @@ function Stack(){
 var stack = new Stack();
 // 先判断一下 栈是否为空
 console.log(stack.isEmpty());
+
+stack.push(3);
+// 查看栈顶的第一个元素
+console.log(stack.peek());
+// 查看栈顶的第一个元素
+stack.push(4);
+console.log(stack.peek());
+// 查看栈的长度
+console.log(stack.size());
+
+module.exports.Stack = Stack;
