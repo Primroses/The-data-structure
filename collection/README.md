@@ -1,3 +1,6 @@
+# 集合
+**自己封装一个**
+```
 class Set{
     constructor(){
         this.set = {};
@@ -99,35 +102,4 @@ class Set{
     }
 }
 
-// var set = new Set();
-// set.add(1);
-// set.add(2);
-// console.log(set.values())
-
-// set 的数据结构 是 键值对 键等于值的
-var set1 = new Set();
-set1.add(1);
-set1.add(2);
-set1.add(3);
-console.log(set1.values());
-
-var setB = new Set();
-setB.add(3);
-setB.add(4);
-setB.add(5);
-console.log(setB.values());
-// 并集
-var set1B = set1.union(setB);
-console.log(set1B.values());
-// 交集
-var set2B = set1.intersection(setB);
-console.log(set2B.values());
-// 差集
-var set3B = set1.difference(setB);
-console.log(set3B.values());
-// 子集
-var setC = new Set();
-setC.add(2);
-setC.add(3);
-setC.add(4);
-console.log(setC.subet(set1));
+```
