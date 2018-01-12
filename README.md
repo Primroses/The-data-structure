@@ -21,4 +21,12 @@
 - [集合](https://github.com/Primroses/The-data-structure/tree/master/collection)
 
 ## 字典
-> 
+> 就是Map，存放的形式是[键，值]对的形式存放的。用键名去查询特定的元素
+- [Map](https://github.com/Primroses/The-data-structure/tree/master/Map)
+**非顺序顺序结构**
+
+## 散列表
+
+- [散列表](https://github.com/Primroses/The-data-structure/tree/master/Map)
+
+## 树
