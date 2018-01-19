@@ -42,3 +42,7 @@
 - chrome 函数执行了20955次 浏览器就会抛出RangerError：Maximum call stack size exceeded 
 - Firefoex 函数执行了343429次就会抛出异常
 - 递归是更容易解决问题，同时操作会变的更慢
+
+**参考**
+- **学习JavaScript数据结构与算法**
+- **数据结构与算法JavaScript描述**
